@@ -1,0 +1,30 @@
+<---  Step for create account page  --->
+1. When user open the link, they should be able to 'Sign-in' and 'Create an account' 
+2. As they click on 'Create an account' link, they should redirected to the sign-up page
+3. They should show create account form in sign-up page
+    1. Form need following details
+        1. First Name
+        2. Last Name
+        3. User Name
+        4. Password
+        5. Confirm Password
+        6. Show Password
+4. If show password checked then password and confirm password text value
+5. If form submitted then following validation
+    1. Check validation if all required field is empty then show inline error
+    2. Check validation user input is not valid input then show inline error
+6. If username not unique then show inline error and give suggestion for available name
+7. If all validate response then go to another page it take following input 
+    1. Phone Number 
+    2. Recovery Email
+    3. Day
+    4. Month
+    5. Year 
+    6. Gender
+8. It check again validate is require field go to step 5
+9. If all validate response then 'Privacy and Term' page then
+    1. If agree 'Privacy and Term' then goto next step
+    2. If not agree goto step 7
+10. If 'Privacy and Term' is agree then goto dashboard.
+ 
+  
